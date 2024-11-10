@@ -11,8 +11,7 @@ def executed():
     execute_date.sort(key=lambda x: datetime.fromisoformat(x["date"]), reverse=True)
     return execute_date[:5]
 
-#'7158 3007 3472 6758'
-print(executed())
+
 
 def card (operation):
     return f"{operation[:4]} {operation[4:6]}** **** {operation[-4:]}"

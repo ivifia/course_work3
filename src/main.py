@@ -30,4 +30,5 @@ def main():
         {from_account} -> {to_account}
         {amount} {currency}
         ''')
+
 main()
