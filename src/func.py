@@ -14,7 +14,7 @@ def executed():
 
 
 def card (operation):
-    return f"{operation[:4]} {operation[4:6]}** **** {operation[-4:]}"
+    return f"{operation[:-16]}{operation[-16:-12]} {operation[-12:-10]}** **** {operation[-4:]}"
 
 
 
